@@ -1,7 +1,12 @@
 import cv2
 import numpy as np
 import math
+
+# Using CPU
 from object_detection import ObjectDetection
+
+# Using GPU
+# from gpu_object_detection import ObjectDetection
 
 detector = ObjectDetection()
 capture = cv2.VideoCapture("video.mp4")
